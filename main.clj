@@ -8,6 +8,7 @@
       :else (recur b (+ a b) (inc c) (conj seq (+ a b)))))
       ;; numbers passed as arguments through anonymous function ie a-[1] b-[1] c-[2] and vector sequence [1 1] -> line 4
   1 1 2 [1 1])) 
+  ;; main function 
 (defn -main [& args]
   (println "20 Fibonacci numbers"))
   (println (fib 20))
